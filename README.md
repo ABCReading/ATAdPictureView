@@ -20,6 +20,14 @@ it, simply add the following line to your Podfile:
 pod 'ATAdPictureView'
 ```
 
+- 1. 在宿主工程中创建modle class,遵循ATAdPictureViewProtocol协议,在.m文件中
+
+  ```@synthesize adImgURL, routerUrl;```等属性;
+
+- 2. 只能以picViewWithLoadImageBlock方法来初始化ATAdPictureView,loadBlock为轮播器图片的下载设置block.
+
+- 3. 初始化ATAdPictureView的数据源要在其他属性(时间间隔,pagecontrol颜色)设置完毕后设置.
+
 ## Author
 
 Spaino, captain_spaino@163.com

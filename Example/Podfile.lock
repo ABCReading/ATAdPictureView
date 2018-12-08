@@ -1,0 +1,25 @@
+PODS:
+  - ATAdPictureView (0.1.0):
+    - SDWebImage
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+
+DEPENDENCIES:
+  - ATAdPictureView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  ATAdPictureView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATAdPictureView: e32df2d59c6ad4f8be00ff716742a69ffe0a1118
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+
+PODFILE CHECKSUM: a5ac661331bb13def67e374d5339cb559b352600
+
+COCOAPODS: 1.6.0.beta.2

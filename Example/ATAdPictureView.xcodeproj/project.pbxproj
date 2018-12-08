@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316D5EBC21B7FCDB00E74939 /* ATPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D5EBB21B7FCDB00E74939 /* ATPicModel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		19D06F50EBBF49E5C8B391B2 /* Pods-ATAdPictureView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAdPictureView_Tests.release.xcconfig"; path = "Target Support Files/Pods-ATAdPictureView_Tests/Pods-ATAdPictureView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1F452557B39CC81DE332CAB5 /* Pods_ATAdPictureView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATAdPictureView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		316D5EBA21B7FCDB00E74939 /* ATPicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATPicModel.h; sourceTree = "<group>"; };
+		316D5EBB21B7FCDB00E74939 /* ATPicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATPicModel.m; sourceTree = "<group>"; };
 		35F41E230AF3E435F3F80D37 /* Pods-ATAdPictureView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAdPictureView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ATAdPictureView_Tests/Pods-ATAdPictureView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ATAdPictureView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATAdPictureView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +63,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85926662C9F6C44C9A299F88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		85926662C9F6C44C9A299F88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9965FE84B232B62C82E0A685 /* Pods-ATAdPictureView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAdPictureView_Example.release.xcconfig"; path = "Target Support Files/Pods-ATAdPictureView_Example/Pods-ATAdPictureView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B077941B461B35BE534200D1 /* Pods_ATAdPictureView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATAdPictureView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDA010B53AE5680C37EFBEDB /* ATAdPictureView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ATAdPictureView.podspec; path = ../ATAdPictureView.podspec; sourceTree = "<group>"; };
+		BDA010B53AE5680C37EFBEDB /* ATAdPictureView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATAdPictureView.podspec; path = ../ATAdPictureView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4F03BBE0CAC57C334D8C10 /* Pods-ATAdPictureView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAdPictureView_Example.debug.xcconfig"; path = "Target Support Files/Pods-ATAdPictureView_Example/Pods-ATAdPictureView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF01C72CA397FEF54EED6DC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF01C72CA397FEF54EED6DC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				316D5EBA21B7FCDB00E74939 /* ATPicModel.h */,
+				316D5EBB21B7FCDB00E74939 /* ATPicModel.m */,
 			);
 			name = "Example for ATAdPictureView";
 			path = ATAdPictureView;
@@ -193,7 +198,6 @@
 				35F41E230AF3E435F3F80D37 /* Pods-ATAdPictureView_Tests.debug.xcconfig */,
 				19D06F50EBBF49E5C8B391B2 /* Pods-ATAdPictureView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -327,12 +331,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ATAdPictureView_Example/Pods-ATAdPictureView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ATAdPictureView/ATAdPictureView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ATAdPictureView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ATAppDelegate.m in Sources */,
+				316D5EBC21B7FCDB00E74939 /* ATPicModel.m in Sources */,
 				6003F5A7195388D20070C39A /* ATViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

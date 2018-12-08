@@ -1,0 +1,6 @@
+framework module ATAdPictureView {
+  umbrella header "ATAdPictureView-umbrella.h"
+
+  export *
+  module * { export * }
+}
