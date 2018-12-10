@@ -1,9 +1,9 @@
 {
   "name": "ATAdPictureView",
   "version": "0.1.0",
-  "summary": "A short description of ATAdPictureView.",
+  "summary": "一个通用的轮播器 ATAdPictureView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Spaino/ATAdPictureView",
+  "homepage": "https://github.com/ABCReading/ATAdPictureView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,16 +12,11 @@
     "Spaino": "captain_spaino@163.com"
   },
   "source": {
-    "git": "https://github.com/Spaino/ATAdPictureView.git",
+    "git": "https://github.com/ABCReading/ATAdPictureView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ATAdPictureView/Classes/**/*",
-  "dependencies": {
-    "SDWebImage": [
-
-    ]
-  }
+  "source_files": "ATAdPictureView/Classes/**/*"
 }

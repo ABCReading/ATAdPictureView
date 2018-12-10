@@ -8,7 +8,7 @@
 
 #import "ATAdPictureView.h"
 
-static NSInteger const radio = 10;
+static NSInteger const radio = 3;
 
 @interface ATAdPictureView ()<UIScrollViewDelegate>
 {
@@ -82,6 +82,7 @@ static NSInteger const radio = 10;
         contentView.showsHorizontalScrollIndicator = NO;
         _contentView = contentView;
         _contentView.delegate = self;
+        contentView.bounces = NO;
         [self addSubview:contentView];
     }
     return _contentView;

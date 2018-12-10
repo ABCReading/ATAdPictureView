@@ -11,6 +11,7 @@
 #import <ATAdPictureView/ATAdPictureViewProtocol.h>
 #import "ATPicModel.h"
 #import <UIImageView+WebCache.h>
+//#import <ATAdPictureView/ATInfiniteScrollView.h> ATInfiniteScrollViewDelegate
 @interface ATViewController ()<ATAdPictureViewDelegate>
 
 @end
@@ -50,7 +51,7 @@
         picView.delegate = self;
         picView.pageControlNormalColor = [UIColor blueColor];
         picView.pageControlHightlightColor = [UIColor blackColor];
-        picView.timeInterval = 1.5;
+        picView.timeInterval = 5;
         picView.picModels = picModels;
         picView;
     })];
