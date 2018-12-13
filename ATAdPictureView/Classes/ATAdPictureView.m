@@ -221,7 +221,7 @@ static NSInteger const radio = 3;
     NSInteger min = self.picModels.count * (radio / 2);
     NSInteger max = self.picModels.count * (radio / 2 + 1);
 
-    NSInteger page = scrollView.contentOffset.x / scrollView.frame.size.width;
+    NSInteger page = round(scrollView.contentOffset.x / scrollView.frame.size.width);
     self.pageControl.currentPage = page % self.picModels.count;
 
     if (page < min || page > max) {

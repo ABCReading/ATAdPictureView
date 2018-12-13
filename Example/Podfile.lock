@@ -1,5 +1,5 @@
 PODS:
-  - ATAdPictureView (0.1.0)
+  - ATAdPictureView (0.3.0)
   - SDWebImage (4.4.3):
     - SDWebImage/Core (= 4.4.3)
   - SDWebImage/Core (4.4.3)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ATAdPictureView: 7215d104e7d8cc99e09093e958b10e97607e5cb6
+  ATAdPictureView: 4692637768ecd65215c84e4a8eb6f0b884a752ad
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
 
 PODFILE CHECKSUM: e5ccf290a414b9705a7dde36c7f8aa0e53ab6158

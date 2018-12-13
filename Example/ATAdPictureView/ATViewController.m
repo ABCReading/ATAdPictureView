@@ -23,10 +23,6 @@
     [super viewDidLoad];
     NSArray *picSource = @[
                            @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544023872250&di=f3ceda95a005ab766047f6fb9edc7198&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20151014%2FImg423240118.jpg",
-                           @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544023872250&di=cdb68ea2dff0cfc8baf25b7472e941a3&imgtype=0&src=http%3A%2F%2Fimg5.pcpop.com%2FArticleImages%2F730x547%2F3%2F3432%2F003432464.jpg",
-                           @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544023872250&di=f3ceda95a005ab766047f6fb9edc7198&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20151014%2FImg423240118.jpg",
-                           @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544023872250&di=cdb68ea2dff0cfc8baf25b7472e941a3&imgtype=0&src=http%3A%2F%2Fimg5.pcpop.com%2FArticleImages%2F730x547%2F3%2F3432%2F003432464.jpg",
-                           @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544023872250&di=f3ceda95a005ab766047f6fb9edc7198&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20151014%2FImg423240118.jpg",
                            @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544023872250&di=cdb68ea2dff0cfc8baf25b7472e941a3&imgtype=0&src=http%3A%2F%2Fimg5.pcpop.com%2FArticleImages%2F730x547%2F3%2F3432%2F003432464.jpg"
                            ];
     NSMutableArray *picModels = [NSMutableArray array];
