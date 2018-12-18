@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		316D5EBC21B7FCDB00E74939 /* ATPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D5EBB21B7FCDB00E74939 /* ATPicModel.m */; };
+		3196C47121C79AC7000759A8 /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3196C47021C79AC7000759A8 /* BannerView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 		1F452557B39CC81DE332CAB5 /* Pods_ATAdPictureView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATAdPictureView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		316D5EBA21B7FCDB00E74939 /* ATPicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATPicModel.h; sourceTree = "<group>"; };
 		316D5EBB21B7FCDB00E74939 /* ATPicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATPicModel.m; sourceTree = "<group>"; };
+		3196C46F21C79AC7000759A8 /* BannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		3196C47021C79AC7000759A8 /* BannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
 		35F41E230AF3E435F3F80D37 /* Pods-ATAdPictureView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAdPictureView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ATAdPictureView_Tests/Pods-ATAdPictureView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ATAdPictureView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATAdPictureView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -145,6 +148,8 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				316D5EBA21B7FCDB00E74939 /* ATPicModel.h */,
 				316D5EBB21B7FCDB00E74939 /* ATPicModel.m */,
+				3196C46F21C79AC7000759A8 /* BannerView.h */,
+				3196C47021C79AC7000759A8 /* BannerView.m */,
 			);
 			name = "Example for ATAdPictureView";
 			path = ATAdPictureView;
@@ -381,6 +386,7 @@
 				6003F59E195388D20070C39A /* ATAppDelegate.m in Sources */,
 				316D5EBC21B7FCDB00E74939 /* ATPicModel.m in Sources */,
 				6003F5A7195388D20070C39A /* ATViewController.m in Sources */,
+				3196C47121C79AC7000759A8 /* BannerView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

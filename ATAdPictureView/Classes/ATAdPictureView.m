@@ -104,6 +104,15 @@ static NSInteger const radio = 3;
     // 1. 移除之前控件
     [self.adPics makeObjectsPerformSelector:@selector(removeFromSuperview)];
     self.adPics = nil;
+    
+    if (_pageControl) {
+        self.pageControl.hidden = YES;
+    }
+    
+    // 1.1 如果数组没有值直接return
+    if (!picModels.count) {
+        return;
+    }
 
     // 2. 根据模型添加新的控件
     NSInteger baseCount = picModels.count;
@@ -136,7 +145,8 @@ static NSInteger const radio = 3;
 
 
     self.pageControl.numberOfPages = picModels.count;
-
+    self.pageControl.hidden = NO;
+    
     [self setNeedsLayout];
 
     if (picModels.count > 1) {
