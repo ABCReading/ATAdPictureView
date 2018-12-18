@@ -111,6 +111,8 @@ static NSInteger const radio = 3;
     
     // 1.1 如果数组没有值直接return
     if (!picModels.count) {
+        [self.scrollTimer invalidate];
+        self.scrollTimer = nil;
         return;
     }
 
